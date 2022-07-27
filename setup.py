@@ -36,8 +36,7 @@ extras_require = {
     ],
 }
 
-with open("requirements.txt") as stream:
-    install_requires = stream.read().splitlines()
+install_requires = ["disnake"]
 
 packages = [
     "disnake.ext.ipc",
